@@ -1,6 +1,182 @@
-footer {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "roboto";
+}
+
+header {
+  width: 100%;
+}
+header img {
+  font-family: "Shrikhand";
+  padding-left: 33%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+main section form {
+  background-color: #eaeaea;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  display: flex;
+}
+main section form input {
+  background-color: #eaeaea;
+  border: none;
+}
+main section form div i.fas {
+  margin-left: 9em;
+}
+
+main section div#presentation {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-bottom: 3em;
+  padding-top: 2em;
+}
+main section div#presentation h1#presentation__titre {
+  margin-bottom: 1em;
+}
+main section div#presentation p#presentation__reservation {
+  font-size: large;
+  font-weight: 100;
+  margin-bottom: 1em;
+  color: #717171;
+  font-family: sans-serif;
+}
+main section div#presentation button {
+  background: linear-gradient(179deg, #FF79DA, #9356DC);
+  border-radius: 2rem;
+  width: 46%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 0em;
   color: white;
+  border: none;
+  font-size: medium;
+}
+
+main section#fonctionnement h1#fonctionnement__titre {
+  margin-left: 1.3em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element {
+  list-style: none;
+  width: 80%;
+  margin-bottom: 0.5em;
+  background-color: #f6f6f6;
+  border-radius: 1.5rem;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+  margin-left: 2em;
+  font-size: large;
+}
+main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element span {
+  background-color: #9356DC;
+  color: white;
+  font-size: small;
+  border-radius: 100%;
+  padding: 0.2em 0.4em;
+  position: absolute;
+  left: 2em;
+}
+main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element i {
+  color: #7e7e7e;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: x-large;
+}
+
+main section#restaurant {
+  margin-top: 4em;
+  background-color: #f6f6f6;
+}
+main section#restaurant h1#restaurant__titre {
+  margin-left: 1.3em;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+}
+
+main section#restaurant div#restaurant__bloc article.restaurant__carte a {
+  text-decoration: none;
+}
+main section#restaurant div#restaurant__bloc article.restaurant__carte a img.restaurant__image {
+  width: 85%;
+  height: 14em;
+  margin-left: 2em;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 0em;
+}
+main section#restaurant div#restaurant__bloc article.restaurant__carte a div#restaurant__etiquette1 {
+  position: absolute;
+  top: 58em;
+  right: 11%;
+  background-color: #99E2D0;
+  color: #208766;
+  padding: 0.3em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border-radius: 0.2em;
+}
+main section#restaurant div#restaurant__bloc article.restaurant__carte a div#restaurant__etiquette2 {
+  position: absolute;
+  top: 78em;
+  right: 11%;
+  background-color: #99E2D0;
+  color: #208766;
+  padding: 0.3em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border-radius: 0.2em;
+}
+main section#restaurant div#restaurant__bloc article.restaurant__carte a div.restaurant__footer {
+  width: 85%;
+  margin-left: 2em;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-bottom: 1em;
+  color: black;
+  display: flex;
+  margin-top: 0em;
+  background-color: white;
+  box-shadow: 2px 2px 5px #bebcbc;
+}
+main section#restaurant div#restaurant__bloc article.restaurant__carte a div.restaurant__footer div.restaurant__description {
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+main section#restaurant div#restaurant__bloc article.restaurant__carte a div.restaurant__footer div.heart-container {
+  margin-left: 50%;
+  margin-left: 46%;
+  padding-top: 1em;
+  font-size: x-large;
+}
+
+footer div#footer_container {
+  background-color: #353535;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+footer div#footer_container h3#footer_titre {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+footer div#footer_container ul li {
+  margin-left: 2em;
+  list-style: none;
+}
+footer div#footer_container ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
