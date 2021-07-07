@@ -23,10 +23,16 @@ main section form {
   padding-bottom: 1em;
   width: 100%;
   display: flex;
+  border-top: solid #cfcfcf;
 }
-main section form input {
+main section form input#input {
   background-color: #eaeaea;
   border: none;
+}
+main section form ::placeholder {
+  color: black;
+  font-size: medium;
+  padding-left: 1em;
 }
 main section form div i.fas {
   margin-left: 9em;
@@ -35,7 +41,7 @@ main section form div i.fas {
 main section div#presentation {
   background-color: #f6f6f6;
   text-align: center;
-  padding-bottom: 3em;
+  padding-bottom: 4em;
   padding-top: 2em;
 }
 main section div#presentation h1#presentation__titre {
@@ -44,7 +50,7 @@ main section div#presentation h1#presentation__titre {
 main section div#presentation p#presentation__reservation {
   font-size: large;
   font-weight: 100;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   color: #717171;
   font-family: sans-serif;
 }
@@ -69,13 +75,14 @@ main section#fonctionnement h1#fonctionnement__titre {
 main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element {
   list-style: none;
   width: 80%;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
   background-color: #f6f6f6;
   border-radius: 1.5rem;
   padding-top: 1.4em;
   padding-bottom: 1.4em;
   margin-left: 2em;
   font-size: large;
+  box-shadow: 2px 2px 5px #bebcbc;
 }
 main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element span {
   background-color: #9356DC;
@@ -99,7 +106,7 @@ main section#restaurant {
 }
 main section#restaurant h1#restaurant__titre {
   margin-left: 1.3em;
-  padding-top: 2.5em;
+  padding-top: 2em;
   padding-bottom: 1em;
 }
 
@@ -116,7 +123,7 @@ main section#restaurant div#restaurant__bloc article.restaurant__carte a img.res
 }
 main section#restaurant div#restaurant__bloc article.restaurant__carte a div#restaurant__etiquette1 {
   position: absolute;
-  top: 58em;
+  top: 62.5em;
   right: 11%;
   background-color: #99E2D0;
   color: #208766;
@@ -127,7 +134,7 @@ main section#restaurant div#restaurant__bloc article.restaurant__carte a div#res
 }
 main section#restaurant div#restaurant__bloc article.restaurant__carte a div#restaurant__etiquette2 {
   position: absolute;
-  top: 78em;
+  top: 82em;
   right: 11%;
   background-color: #99E2D0;
   color: #208766;
@@ -159,12 +166,16 @@ main section#restaurant div#restaurant__bloc article.restaurant__carte a div.res
   padding-top: 1em;
   font-size: x-large;
 }
+main section#restaurant div#restaurant__bloc article.restaurant__carte a div.restaurant__footer div.heart-container i.fa-heart-full {
+  display: none;
+}
 
 footer div#footer_container {
   background-color: #353535;
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
+  margin-top: 4em;
 }
 footer div#footer_container h3#footer_titre {
   margin-left: 2em;
@@ -173,10 +184,14 @@ footer div#footer_container h3#footer_titre {
 footer div#footer_container ul li {
   margin-left: 2em;
   list-style: none;
+  margin-bottom: 0.8em;
 }
 footer div#footer_container ul li a {
   color: white;
   text-decoration: none;
+}
+footer div#footer_container ul li i {
+  margin-right: 0.3em;
 }
 
 /*# sourceMappingURL=style.css.map */
