@@ -28,7 +28,7 @@ header a i {
 
 main div img#bg__image {
   width: 100%;
-  height: 13em;
+  height: 17em;
 }
 
 section {
@@ -38,7 +38,7 @@ section div#titre__page {
   border-radius: 2rem 2rem 0 0;
   width: 100%;
   position: absolute;
-  margin-top: -15%;
+  margin-top: -13%;
   background: #f4f4f4;
   display: flex;
 }
@@ -48,6 +48,13 @@ section div#titre__page h1 {
   padding-left: 5%;
   padding-top: 4%;
   padding-bottom: 4%;
+}
+section div#titre__page i {
+  margin-top: 1em;
+  font-size: 2em;
+}
+section div#titre__page i.fa-heart-full {
+  display: none;
 }
 
 section div#menu article h2 {
@@ -77,16 +84,31 @@ section div#menu article ul li {
   grid-template-columns: auto min-content;
   width: 90%;
   margin-left: 3%;
+}
+section div#menu article ul li div.menu__container {
   padding-bottom: 2.5%;
   padding-top: 2.5%;
 }
-section div#menu article ul li div.menu__bloc {
+section div#menu article ul li div.menu__container div.menu__bloc {
   display: flex;
 }
-section div#menu article ul li div.menu__bloc div.menu__prix {
-  margin-left: 7%;
+section div#menu article ul li div.menu__container div.menu__bloc div.menu__prix {
   padding-right: 1rem;
   font-weight: bold;
+  position: absolute;
+  right: 3.5em;
+}
+section div#menu article ul li div.menu__check {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #99E2D0;
+  padding-top: 1.7em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+section div#menu article ul li div.menu__check i {
+  color: white;
+  font-size: large;
 }
 
 div#btn {

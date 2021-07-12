@@ -44,10 +44,10 @@ main section div#presentation {
   padding-bottom: 4em;
   padding-top: 2em;
 }
-main section div#presentation h1#presentation__titre {
+main section div#presentation h1resentation__titre {
   margin-bottom: 1em;
 }
-main section div#presentation p#presentation__reservation {
+main section div#presentation p {
   font-size: large;
   font-weight: 100;
   margin-bottom: 2em;
@@ -66,13 +66,13 @@ main section div#presentation button {
   font-size: medium;
 }
 
-main section#fonctionnement h1#fonctionnement__titre {
+main section#fonctionnement h1 {
   margin-left: 1.3em;
   margin-top: 2em;
   margin-bottom: 1.5em;
 }
 
-main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element {
+main section#fonctionnement ul li {
   list-style: none;
   width: 80%;
   margin-bottom: 1.5em;
@@ -81,10 +81,11 @@ main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element 
   padding-top: 1.4em;
   padding-bottom: 1.4em;
   margin-left: 2em;
-  font-size: large;
+  font-size: medium;
+  font-weight: 600;
   box-shadow: 2px 2px 5px #bebcbc;
 }
-main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element span {
+main section#fonctionnement ul li span {
   background-color: #9356DC;
   color: white;
   font-size: small;
@@ -93,7 +94,7 @@ main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element 
   position: absolute;
   left: 2em;
 }
-main section#fonctionnement ul#fonctionnement__liste li.fonctionnement__element i {
+main section#fonctionnement ul li i {
   color: #7e7e7e;
   margin-left: 10%;
   margin-right: 10%;
@@ -104,7 +105,7 @@ main section#restaurant {
   margin-top: 4em;
   background-color: #f6f6f6;
 }
-main section#restaurant h1#restaurant__titre {
+main section#restaurant h1 {
   margin-left: 1.3em;
   padding-top: 2em;
   padding-bottom: 1em;
@@ -159,6 +160,7 @@ main section#restaurant div#restaurant__bloc article.restaurant__carte a div.res
   padding-left: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
+  font-weight: 100;
 }
 main section#restaurant div#restaurant__bloc article.restaurant__carte a div.restaurant__footer div.heart-container {
   margin-left: 50%;
@@ -177,7 +179,7 @@ footer div#footer_container {
   padding-bottom: 2em;
   margin-top: 4em;
 }
-footer div#footer_container h3#footer_titre {
+footer div#footer_container h3 {
   margin-left: 2em;
   margin-bottom: 1em;
 }
